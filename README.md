@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Haskell when using Maps: using an undefined value as a key. The `bug.hs` file contains the erroneous code, which attempts to insert an undefined value into a map, leading to a runtime error.  The `bugSolution.hs` file provides a corrected version of the code, handling the potential undefined value appropriately.
