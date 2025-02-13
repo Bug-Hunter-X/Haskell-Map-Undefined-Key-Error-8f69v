@@ -1,0 +1,1 @@
+This code attempts to use `undefined` as a key in a Map, which is not allowed.  Maps require keys to be of an Ord instance (can be ordered).  `undefined` doesn't have a defined ordering in Haskell. This would lead to a runtime error.
